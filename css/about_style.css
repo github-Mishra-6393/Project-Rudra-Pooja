@@ -1,0 +1,74 @@
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.img img{
+    width: 16rem;
+    height: 15rem;
+    border: 2px solid gray;
+    box-shadow: 8px 6px 10px rgb(41, 37, 37);
+    clip-path: circle(48%);
+    margin: 10px;
+    
+}
+.img h4{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+@media screen and (max-width:360px) {
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0.8rem;
+        
+    }
+    .img img{
+        width: 6.25rem;
+        height: 6.87rem;
+        border: 2px solid gray;
+        box-shadow: 5px 3px 6px rgb(41, 37, 37);
+        clip-path: circle(10%);
+        margin: .5rem;
+        
+        
+    }
+    .img h4{
+        width: 90%;
+        font-size: 1rem;
+        text-align: justify;
+        color: whitesmoke;
+        font-weight: 100;
+    }
+}
+/* Mobile land scape */
+@media screen and (max-width:640px)and (min-width:361px){
+    .img img{
+        width: 8.25rem;
+        height: 6.87rem;
+        border: 2px solid gray;
+        border-radius: 50%;
+        box-shadow: 5px 3px 6px rgb(41, 37, 37);
+        margin: .5rem;
+        
+    }
+    .img h4{
+        width: 80%;
+        font-size: 1.2rem;
+        text-align: justify;
+        line-height: 1.2rem;
+        color: whitesmoke;
+        font-weight: 200;
+    }
+}
